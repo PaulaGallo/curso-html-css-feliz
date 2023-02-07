@@ -30,7 +30,7 @@ a:before {
     margin-right: 10px;
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #05696F;
     box-shadow: 5px 5px 0 #000;
@@ -39,10 +39,38 @@ a:before {
     transition: transform 100ms linear;
 }
 
-#button:hover {
+.button:hover {
     transform: scale(1.07);
     background-color: #033544;
     color:#f7cd11;
     transition: 0.5s;
     opacity: 0.9;
 }
+
+#titulo {
+    display: inline-block;
+    color: #FCE377;
+    background-color: #828282;
+    box-shadow: 10px 10px 0 #000;
+    width: 627px;
+    height: 120px;
+    padding: 42px 0px;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 116px;
+    margin-left: 91px;
+    text-align: center;
+    position: absolute;
+    text-shadow: 4px 4px 0px #000; 
+
+}
+
+#subtitulo {
+    color: #05696F;
+    font-size: 30px;
+
+}
+
+
+
+
